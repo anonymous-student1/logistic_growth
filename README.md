@@ -102,6 +102,10 @@ plot2 <- exponential_graph
 grid.arrange(plot1, plot2, ncol=2)
       # this arranges the two plots so they are side by side in 2 columns
 ```
+This produces a plot as follows:
+<img width="1440" alt="Screenshot 2023-12-05 at 15 18 43" src="https://github.com/anonymous-student1/logistic_growth/assets/150151047/c5d56978-3da1-45a2-a6fe-c59288e28c6c">
+
+
 sink(file = "package-versions.txt")
 sessionInfo()
 sink() 
